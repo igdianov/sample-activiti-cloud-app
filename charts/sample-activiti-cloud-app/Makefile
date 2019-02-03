@@ -1,6 +1,6 @@
 CHART_REPOSITORY := $(or $(CHART_REPOSITORY),http://jenkins-x-chartmuseum:8080)
 CURRENT=$(pwd)
-NAME := REPLACE_ME_APP_NAME
+NAME := sample-activiti-cloud-app
 OS := $(shell uname)
 RELEASE_VERSION := $(or $(shell cat ../../VERSION),$(shell sed -n 's/^version: //p' Chart.yaml))
 
